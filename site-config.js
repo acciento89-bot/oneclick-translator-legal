@@ -1,5 +1,5 @@
 window.ONECLICK_CONFIG = {
-  installUrl: "PASTE_YOUR_DISCORD_INSTALL_URL_HERE",
-  appDirectoryUrl: "PASTE_YOUR_APP_DIRECTORY_URL_HERE",
-  supportServerUrl: "PASTE_YOUR_SUPPORT_SERVER_INVITE_HERE"
+  installUrl: "https://discord.com/oauth2/authorize?client_id=1530905759053905990",
+  appDirectoryUrl: "https://discord.com/application-directory/1530905759053905990",
+  supportServerUrl: "https://discord.gg/WvSRe6awQM"
 };
