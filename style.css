@@ -5,9 +5,19 @@ header{position:sticky;top:0;background:rgba(11,13,20,.86);backdrop-filter:blur(
 nav{min-height:70px;display:flex;align-items:center;justify-content:space-between;gap:18px}.brand{font-weight:800;color:var(--text)}.links{display:flex;gap:16px;flex-wrap:wrap}
 .hero{text-align:center;padding:90px 0 46px}.hero h1{font-size:clamp(2.4rem,7vw,5rem);line-height:1.05;margin:16px 0}.hero p{max-width:700px;margin:auto;color:var(--muted);font-size:1.08rem}
 .badge{display:inline-block;padding:6px 12px;border-radius:999px;background:rgba(139,124,255,.12);border:1px solid rgba(139,124,255,.3);color:#c9c3ff;font-weight:700}
-.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;padding:28px 0 84px}.card,.doc{background:linear-gradient(180deg,rgba(24,29,44,.96),rgba(18,22,33,.96));border:1px solid var(--border);box-shadow:0 24px 70px rgba(0,0,0,.3)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;padding:28px 0 84px}.card,.doc{background:linear-gradient(180deg,rgba(24,29,44,.96),rgba(18,22,33,.96));border:1px solid var(--border);box-shadow:0 24px 70px rgba(0,0,0,.3)}
 .card{padding:24px;border-radius:18px}.card h2{font-size:1.25rem}.card p,.muted{color:var(--muted)}
 .docwrap{padding:55px 0 84px}.doc{padding:clamp(24px,5vw,56px);border-radius:22px}.doc h1{font-size:clamp(2rem,5vw,3.5rem);line-height:1.1;margin-top:0}.doc h2{margin-top:2em;line-height:1.2}.notice,.contact{padding:17px 19px;border-radius:12px;background:rgba(139,124,255,.09);border:1px solid rgba(139,124,255,.22)}
 footer{border-top:1px solid var(--border);padding:28px 0 42px;color:var(--muted);font-size:.92rem}.foot{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
 code{background:rgba(255,255,255,.08);padding:.15em .4em;border-radius:6px}
 @media(max-width:720px){nav{padding:14px 0;align-items:flex-start;flex-direction:column}.grid{grid-template-columns:1fr}.hero{padding-top:60px}}
+
+.contact-form{display:grid;gap:10px;margin-top:28px}
+.contact-form label{font-weight:700;margin-top:8px}
+.contact-form input,.contact-form select,.contact-form textarea{width:100%;padding:13px 14px;border-radius:10px;border:1px solid var(--border);background:rgba(255,255,255,.05);color:var(--text);font:inherit}
+.contact-form select option{color:#111}
+.contact-form input:focus,.contact-form select:focus,.contact-form textarea:focus{outline:2px solid rgba(139,124,255,.7);outline-offset:2px}
+.checkbox{display:flex;align-items:flex-start;gap:10px;font-weight:400!important}
+.checkbox input{width:auto;margin-top:.45em}
+.submit-button{justify-self:start;margin-top:10px;padding:12px 18px;border:0;border-radius:10px;background:var(--accent);color:#fff;font:inherit;font-weight:800;cursor:pointer}
+.submit-button:hover{filter:brightness(1.08)}

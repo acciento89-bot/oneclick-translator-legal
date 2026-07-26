@@ -1,24 +1,57 @@
-# OneClick Translator Legal Site
+# DocBot Solutions / OneClick Translator Legal Site v2
 
-## GitHub Pages setup
+This update adds:
 
-1. Create a new public repository named `oneclick-translator-legal`.
-2. Upload the contents of this folder, not the outer folder or ZIP file.
-3. Open `Settings → Pages`.
-4. Under Build and deployment choose:
-   - Source: `Deploy from a branch`
-   - Branch: `main`
-   - Folder: `/ (root)`
-5. Save and wait for the public URL.
-6. Enable `Enforce HTTPS` when available.
+- `imprint.html` with the business address
+- `contact.html` with a Formspree-ready contact form
+- DocBot Solutions as the umbrella business designation
+- Piotr Kaminski as the responsible natural person
+- updated Privacy Policy, Terms, Support, navigation, and footer
 
-Expected URLs:
+## Important: activate the contact form
 
-- `https://YOUR-GITHUB-NAME.github.io/oneclick-translator-legal/`
-- `https://YOUR-GITHUB-NAME.github.io/oneclick-translator-legal/privacy.html`
-- `https://YOUR-GITHUB-NAME.github.io/oneclick-translator-legal/terms.html`
-- `https://YOUR-GITHUB-NAME.github.io/oneclick-translator-legal/support.html`
+GitHub Pages is static and cannot process form submissions on its own.
 
-Use `privacy.html` and `terms.html` in the Discord Developer Portal.
+1. Create a Formspree account.
+2. Create a new form that sends submissions to:
+   `acciento89@gmail.com`
+3. Copy the Formspree form ID.
+4. Open `contact.html`.
+5. Replace:
 
-Before accepting payments in Germany, obtain advice on a complete legal notice/imprint. A commercial digital service may require a serviceable postal address and further information.
+```text
+YOUR_FORM_ID
+```
+
+with the actual form ID.
+
+Example:
+
+```html
+<form action="https://formspree.io/f/abcdwxyz" method="POST">
+```
+
+6. Commit the updated file to GitHub.
+7. Send a test message and confirm the Formspree verification email if requested.
+
+## Upload patch
+
+Upload all files from the patch folder to the root of the public GitHub Pages repository.
+Existing files may be replaced.
+
+## URLs
+
+- `/imprint.html`
+- `/contact.html`
+- `/privacy.html`
+- `/terms.html`
+
+## Business-name note
+
+`DocBot Solutions` is used as a business designation. For a sole proprietorship
+without a commercial-register entry, the responsible person's full legal name must
+remain visible. Do not add `e.K.`, `UG`, `GmbH`, `CEO`, or `Geschäftsführer` unless
+the legal status actually changes.
+
+Before spending heavily on branding, domains, or advertising, perform a trademark and
+name-conflict check. A general web search is not a legal trademark clearance.
