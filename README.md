@@ -1,10 +1,10 @@
-# DocBot Solutions / OneClick Translator Legal Site v2
+# Kamilunavo / OneClick Translator Legal Site v3
 
-This update adds:
+This version contains:
 
 - `imprint.html` with the business address
 - `contact.html` with a Formspree-ready contact form
-- DocBot Solutions as the umbrella business designation
+- Kamilunavo as the umbrella business designation
 - Piotr Kaminski as the responsible natural person
 - updated Privacy Policy, Terms, Support, navigation, and footer
 
@@ -48,7 +48,7 @@ Existing files may be replaced.
 
 ## Business-name note
 
-`DocBot Solutions` is used as a business designation. For a sole proprietorship
+`Kamilunavo` is used as a business designation. For a sole proprietorship
 without a commercial-register entry, the responsible person's full legal name must
 remain visible. Do not add `e.K.`, `UG`, `GmbH`, `CEO`, or `Geschäftsführer` unless
 the legal status actually changes.
