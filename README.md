@@ -55,3 +55,14 @@ the legal status actually changes.
 
 Before spending heavily on branding, domains, or advertising, perform a trademark and
 name-conflict check. A general web search is not a legal trademark clearance.
+
+
+## Version 4 privacy update
+
+The Privacy Policy now covers:
+
+- minimized automatic technical incident reports;
+- voluntary `/report-issue` submissions;
+- optional salted pseudonymous server fingerprints;
+- report retention periods;
+- temporary in-memory anti-spam cooldown processing.
