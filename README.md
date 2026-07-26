@@ -66,3 +66,14 @@ The Privacy Policy now covers:
 - optional salted pseudonymous server fingerprints;
 - report retention periods;
 - temporary in-memory anti-spam cooldown processing.
+
+
+## Version 5 anti-abuse update
+
+The Privacy Policy and Terms now cover:
+
+- temporary in-memory cooldown and burst-detection identifiers;
+- duplicate-request and concurrency protection;
+- automatic temporary blocks;
+- minimized private anti-abuse alerts;
+- restrictions on automated quota exhaustion and limit circumvention.
